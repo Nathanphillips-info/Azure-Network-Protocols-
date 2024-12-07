@@ -4,19 +4,15 @@
 </p>
 
 <h1>Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines</h1>
-In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
+In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark and experiment with Network Security Groups. <br />
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: Azure Virtual Machines, Wireshark, and Network Security Groups](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Various Command-Line Tools
-- Various Network Protocols (SSH, RDH, DNS, HTTP/S, ICMP)
+- Various Network Protocols (SSH, RDH, DNS, HTTPS, ICMP)
 - Wireshark (Protocol Analyzer)
 
 <h2>Operating Systems Used </h2>
@@ -26,10 +22,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Step 1: Create a resource group with a virtual network and add two VMs into the resource group and the same virtual network. One should be windows 10 and the other should be Ubuntu 
+- Step 2: Log into the Windows VM with RDP and download wireshark to observe network traffic. 
+- Step 3: On the command line, send a ping to your Ubuntu VM and observe the Wireshark traffic.
+- Step 4: Use network security groups to ignore inbound ICMP traffic and observe in wireshark.
+- Step 5: Use Wireshark to examine different ports and see the traffic moving in and out with protocols such as DHCP, DNS, SSH, and RDP.
 
 <h2>Actions and Observations</h2>
 
