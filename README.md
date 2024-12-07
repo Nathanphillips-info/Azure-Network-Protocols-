@@ -34,7 +34,19 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- Create your Windows and Ubuntu VMs in Azure, and ensure they are in the same resource group and a part of the same virtual network. I found it easier to create the virtual network first, so you don't have to wait for it to complete its creation before making the next VM. 
+</p>
+<p>
+- Once both VMs are running, use RDP to log to the Windows 10 VM and install Wireshark.
+</p>
+<p>
+- Wireshark will then be used to observe ICMP traffic. Open the command line and send a ping to the Ubuntu VM you used by typing ping and then the private IP of the Ubuntu VM. 
+</p>
+<p>
+- Send pings from the Windows VM to the Ubuntu VM perpetually by typing "ping (Ubuntu private IP) -t." In Azure, open the network security group of the Ubuntu VM, create a new rule denying inbound ICMP traffic, and observe in Wireshark and on the command line.
+</p>
+<p>
+- Then delete the rule and observe as the pings start to receive replies again. 
 </p>
 <br />
 
