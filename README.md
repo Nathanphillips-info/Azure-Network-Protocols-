@@ -31,7 +31,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/6d3f89b1-472a-43de-836c-d03ae373194c"/>
 </p>
 <p>
 - Create your Windows and Ubuntu VMs in Azure, and ensure they are in the same resource group and a part of the same virtual network. I found it easier to create the virtual network first, so you don't have to wait for it to complete its creation before making the next VM. 
