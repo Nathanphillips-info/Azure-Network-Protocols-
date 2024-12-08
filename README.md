@@ -51,7 +51,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/521a148e-b1ea-405a-b7d2-3b4ead614620"/>
 </p>
 <p>
 - Next, we are going to observe SSH traffic with Wireshark. Look at SSH traffic in Wireshark in the same Windows VM and open up PowerShell. Please remember your login for the Ubuntu VM. 
