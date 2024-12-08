@@ -54,10 +54,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Next, we are going to observe SSH traffic with Wireshark. Look at SSH traffic in Wireshark in the same Windows VM and open up PowerShell. Please remember your login for the Ubuntu VM. 
+- Next, we are going to observe SSH traffic with Wireshark. Look at SSH traffic in Wireshark in the same Windows VM and open up PowerShell. Please remember your login for the Ubuntu VM. 
 </p>
 <p>
-Once PowerShell is open, type "ssh (your login)@(the Ubuntu private IP)." It will prompt you to type in the password, which will be invisible. Type it and hit enter. 
+- Once PowerShell is open, type "ssh (your login)@(the Ubuntu private IP)." It will prompt you to type in the password, which will be invisible. Type it and hit enter. 
 </p>
 <p>
 - Then, watch in Wireshark as the SSH traffic appears when connecting to the server. 
@@ -68,7 +68,7 @@ Once PowerShell is open, type "ssh (your login)@(the Ubuntu private IP)." It wil
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-In Wireshark, change the traffic you are observing to DHCP traffic. Then, in Powershell, type "ipconfig /renew." This will get you a new IP address, and you should witness some DHCP traffic. 
+- In Wireshark, change the traffic you are observing to DHCP traffic. Then, in Powershell, type "ipconfig /renew." This will get you a new IP address, and you should witness some DHCP traffic. 
 </p>
 <p>
 - Next, we will observe DNS traffic in Wireshark, then open a web browser and browse any website. You should see DNS traffic in Wireshark. 
