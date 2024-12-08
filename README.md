@@ -65,7 +65,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/c439c178-857c-428f-b1e9-120d44b2a060"/>
 </p>
 <p>
 - In Wireshark, change the traffic you are observing to DHCP traffic. Then, in Powershell, type "ipconfig /renew." This will get you a new IP address, and you should witness some DHCP traffic. 
